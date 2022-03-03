@@ -273,7 +273,6 @@ li{
   font-size: 18px;
   line-height: 28px;
   color: rgb(246, 126, 126);
-  margin-bottom: 16px;
 }
 
 .sidebar-content-text{
@@ -282,7 +281,7 @@ li{
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
-  margin-bottom: 32px;
+  margin-bottom: 22px;
   color: rgb(255, 255, 255);
   opacity: 0.8;
 }
@@ -323,8 +322,9 @@ li{
   text-align: center;
   color: rgb(255, 255, 255);
   width: 350px;
-  z-index: 2;
+  z-index: 1;
   margin-bottom: 24px;
+  position: relative;
 }
 .main-section-text::before{
   content: "";
@@ -334,8 +334,10 @@ li{
   background-image: url(../img/quotation-marks.svg);
   margin: 0 auto;
   z-index: 1;
-  top: 20px;
-  position: relative;
+  bottom: 80px;
+  left: 40%;
+  position: absolute;
+  z-index: -1;
 }
 .peaples-about-box{
   width: 340px;
