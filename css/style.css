@@ -448,6 +448,7 @@ li{
   font-size: 18px;
   line-height: 28px;  
   color: rgb(255, 255, 255);
+  margin-top: 32px;
 }
 
 .footer-item ~ .footer-item{
@@ -461,12 +462,16 @@ li{
   font-size: 15px;
   line-height: 25px;  
   color: rgba(255, 255, 255, 0.6);
+  display: block;
 }
 .footer-link:hover{
   color: rgba(246, 126, 126, 1);
 }
 .footer-right-img{
   margin-bottom: 50px;
+}
+.img-container{
+  text-align: end;
 }
 /* Main-section */
 
@@ -698,6 +703,7 @@ li{
   padding-left: 14px;
   padding-top: 0;
   color: rgb(255, 255, 255);
+  resize: none;
 }
 .btn{
   font-family: Livvic;
